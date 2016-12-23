@@ -1,0 +1,30 @@
+﻿<Window x:Class="MinesweeperSolver.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MinesweeperSolver"
+        mc:Ignorable="d"
+        Title="Solver" Height="320.834" Width="187.962">
+    <Grid Margin="0,0,-0.4,-0.2">
+        <Label x:Name="labelX" Content="X:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="10" Width="40"/>
+        <Label x:Name="labelCursorX" Content="" Margin="55,10,6.6,0" VerticalAlignment="Top" FontSize="10"/>
+        <Label x:Name="labelY" Content="Y:" HorizontalAlignment="Left" Margin="10,37,0,0" VerticalAlignment="Top" FontSize="10" Width="40"/>
+        <Label x:Name="labelCursorY" Content="" Margin="55,37,6.6,0" VerticalAlignment="Top" FontSize="10"/>
+        <Label x:Name="labelX1" Content="X1:" HorizontalAlignment="Left" Margin="10,64,0,0" VerticalAlignment="Top" FontSize="10" Width="40"/>
+        <TextBox x:Name="textBox_X1" Height="22" Margin="55,64,6.6,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="10" Text="525"/>
+        <Label x:Name="labelY1" Content="Y1:" HorizontalAlignment="Left" Margin="10,91,0,0" VerticalAlignment="Top" FontSize="10" Width="40"/>
+        <TextBox x:Name="textBox_Y1" Height="22" Margin="55,91,6.6,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="10" Text="280"/>
+        <Label x:Name="labelX2" Content="X2:" HorizontalAlignment="Left" Margin="10,118,0,0" VerticalAlignment="Top" FontSize="10" Width="40"/>
+        <TextBox x:Name="textBox_X2" Height="22" Margin="55,118,6.6,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="10" Text="1008"/>
+        <Label x:Name="labelY2" Content="Y2:" HorizontalAlignment="Left" Margin="10,145,0,0" VerticalAlignment="Top" FontSize="10" Width="40"/>
+        <TextBox x:Name="textBox_Y2" Height="22" Margin="55,145,6.6,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="10" Text="538"/>
+        <Label x:Name="labelRow" Content="Row:" HorizontalAlignment="Left" Margin="10,172,0,0" VerticalAlignment="Top" FontSize="10" Width="40"/>
+        <TextBox x:Name="textBox_Row" Height="22" Margin="55,172,6.6,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="10" Text="16"/>
+        <Label x:Name="labelCol" Content="Col:" HorizontalAlignment="Left" Margin="10,199,0,0" VerticalAlignment="Top" FontSize="10" Width="40"/>
+        <TextBox x:Name="textBox_Col" Height="22" Margin="55,199,6.6,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="10" Text="30"/>
+        <Label x:Name="labelMine" Content="Mine:" HorizontalAlignment="Left" Margin="10,226,0,0" VerticalAlignment="Top" FontSize="10" Width="40"/>
+        <TextBox x:Name="textBox_Mine" Height="22" Margin="55,226,6.6,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="10" Text="99"/>
+        <Button x:Name="button" Content="Start" Margin="10,253,6,7.6" Click="button_Click"/>
+    </Grid>
+</Window>
